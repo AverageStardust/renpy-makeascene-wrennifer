@@ -2,6 +2,7 @@
 # The entry point for this game.
 label start:
 
+    call beggining
 
     call pyramid
     # Call all the other scenes in between
@@ -19,7 +20,7 @@ label start:
 
     call whydidwemakethis
 
-    call scene002
+    call scene002_sora
 
     # Jill vs Trumpter
     call scene_wrennifer
@@ -30,3 +31,4 @@ label start:
     call end
 
     return
+
